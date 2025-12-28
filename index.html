@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GOTH — Psychological Horror</title>
+  <meta name="description" content="GOTH — a gothic-asf landing page concept." />
+
+  <!-- Gothic + cinematic fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=UnifrakturCook:wght@700&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Ambient background layers -->
+  <div class="bg" aria-hidden="true">
+    <div class="grain"></div>
+    <div class="vignette"></div>
+    <div class="sigils"></div>
+    <div class="fog fog-a"></div>
+    <div class="fog fog-b"></div>
+  </div>
+
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <a class="brand" href="#top">
+        <span class="brand__mark" aria-hidden="true">✠</span>
+        <span class="brand__name">GOTH</span>
+        <span class="brand__tag">2003 · Psychological Horror</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#story">Story</a>
+        <a href="#features">Experience</a>
+        <a href="#gallery">Stills</a>
+        <a href="#tickets" class="nav__cta">Watch</a>
+      </nav>
+
+      <button class="iconbtn" id="toggleTheme" type="button" aria-label="Toggle blood moon mode">
+        <span class="iconbtn__dot"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="wrap hero__inner">
+        <div class="hero__left">
+          <p class="eyebrow">
+            <span class="eyebrow__pill">Horror</span>
+            <span class="eyebrow__pill">Thriller</span>
+            <span class="eyebrow__pill">Gothic</span>
+          </p>
+
+          <h1 class="title">
+            <span class="title__fraktur">Goth</span>
+            <span class="title__cinzel">is not a place—</span>
+            <span class="title__cinzel">it’s a memory that bites back.</span>
+          </h1>
+
+          <p class="lead">
+            A cold corridor. A missing past. A confession carved into stone.
+            Step into a world where shadows have names and silence has teeth.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--blood" href="#tickets">
+              <span>Enter the Cathedral</span>
+              <span class="btn__shine" aria-hidden="true"></span>
+            </a>
+
+            <a class="btn btn--glass" href="https://www.youtube.com/watch?v=_RMe40kLrp8" target="_blank" rel="noopener">
+              <span class="btn__icon" aria-hidden="true">▶</span>
+              <span>Play Teaser</span>
+            </a>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <div class="stat__k">Rating</div>
+              <div class="stat__v">R</div>
+            </div>
+            <div class="stat">
+              <div class="stat__k">Run time</div>
+              <div class="stat__v">~95 min</div>
+            </div>
+            <div class="stat">
+              <div class="stat__k">Mood</div>
+              <div class="stat__v">Dreadful</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__right" aria-label="Poster panel">
+          <div class="poster">
+            <div class="poster__frame">
+              <div class="poster__glow" aria-hidden="true"></div>
+
+              <div class="poster__art" role="img" aria-label="A gothic window, moonlight, and a silhouette">
+                <div class="window">
+                  <div class="window__arch"></div>
+                  <div class="window__bars"></div>
+                  <div class="window__moon"></div>
+                  <div class="window__silhouette"></div>
+                  <div class="window__rain"></div>
+                </div>
+              </div>
+
+              <!-- Image plate (unman.png) -->
+              <div class="poster__plate poster__plate--image">
+                <img src="assets/unman.png" alt="Mysterious figure" class="poster__image" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Story -->
+    <section class="section" id="story">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 class="h2">Story</h2>
+          <p class="sub">
+            A psychological horror premise—kept vague on purpose.
+            Your imagination is the sharpest blade.
+          </p>
+        </div>
+
+        <div class="story">
+          <div class="story__card">
+            <h3>Act I — The Return</h3>
+            <p>You arrive with a name you don’t trust, and a letter you don’t remember writing. The building recognizes you anyway.</p>
+          </div>
+          <div class="story__card">
+            <h3>Act II — The Choir</h3>
+            <p>Each corridor hums. Each hymn is a map. Each verse asks you to choose: truth, or peace.</p>
+          </div>
+          <div class="story__card">
+            <h3>Act III — The Mirror</h3>
+            <p>A confession waits behind stained glass. But the face in the reflection will not match the one you brought.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section section--alt" id="features">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 class="h2">Experience</h2>
+          <p class="sub">Ink blacks, blood accents, fog, grain, and gothic typography.</p>
+        </div>
+
+        <div class="features">
+          <article class="feature">
+            <div class="feature__icon" aria-hidden="true">✦</div>
+            <h3>Cathedral Contrast</h3>
+            <p>Layered gradients and glow—built for a dark, readable UI.</p>
+          </article>
+
+          <article class="feature">
+            <div class="feature__icon" aria-hidden="true">⛧</div>
+            <h3>Fog + Grain</h3>
+            <p>Animated fog and film grain for that early-2000s thriller atmosphere.</p>
+          </article>
+
+          <article class="feature">
+            <div class="feature__icon" aria-hidden="true">✠</div>
+            <h3>Blood Moon Mode</h3>
+            <p>Toggle a deeper crimson palette—because dread looks better in red.</p>
+          </article>
+
+          <article class="feature">
+            <div class="feature__icon" aria-hidden="true">☾</div>
+            <h3>Simple, Custom</h3>
+            <p>Pure HTML/CSS/JS. Drop your images in <code>assets/</code> and you’re done.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section" id="gallery">
+      <div class="wrap">
+        <div class="section__head">
+          <h2 class="h2">Stills</h2>
+          <p class="sub">Four frames. Four warnings.</p>
+        </div>
+
+        <div class="gallery">
+          <figure class="shot">
+            <div class="shot__img shot__img--a" role="img" aria-label="Hallway where echoes learn your name."></div>
+            <figcaption>Hallway where echoes learn your name.</figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="shot__img shot__img--b" role="img" aria-label="Stained glass that remembers your sins."></div>
+            <figcaption>Stained glass that remembers your sins.</figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="shot__img shot__img--c" role="img" aria-label="Candles counting down to the truth."></div>
+            <figcaption>Candles counting down to the truth.</figcaption>
+          </figure>
+          <figure class="shot">
+            <div class="shot__img shot__img--d" role="img" aria-label="Moonlight sharp enough to cut."></div>
+            <figcaption>Moonlight sharp enough to cut.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tickets -->
+    <section class="section section--alt" id="tickets">
+      <div class="wrap">
+        <div class="cta">
+          <div class="cta__text">
+            <h2 class="cta__title">Watch the nightmare unfold.</h2>
+            <p class="cta__sub">Sign up to get updates, screenings, and behind-the-scenes artifacts.</p>
+          </div>
+
+          <form class="form" id="signupForm">
+            <label class="field">
+              <span class="field__label">Email</span>
+              <input class="field__input" type="email" name="email" placeholder="you@midnight.com" required />
+            </label>
+            <button class="btn btn--blood btn--full" type="submit">Sign up</button>
+            <p class="form__hint">No spam. Only omens.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <p>© 2025</p>
+      <div class="footer__credit">
+        <span>Made by GAJEE · <strong>#GOTH4EVR</strong></span>
+        <a class="insta-btn" href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
